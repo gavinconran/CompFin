@@ -15,8 +15,8 @@
 #
 library(zoo)
 
-singleIndexPrices.df = read.csv("./singleIndexPrices.csv",
-                  stringsAsFactors=F)
+singleIndexPrices.df = read.csv("~/Economics/ComputationalFinance/CompFin/W7_IntroductiontoPortfolioTheory/singleIndexPrices.csv",
+                                stringsAsFactors=F)
 colnames(singleIndexPrices.df)
 #
 # 2. Create zooreg object from data and dates in singleIndexPrices.df
@@ -139,3 +139,4 @@ plot(roll.eport[,1:2], plot.type="single", ylab="percent",
 abline(h=0)
 legend(x="topleft",legend=colnames(roll.eport[,1:2]),
        lty=rep(1,2),col=c("black","orange"),lwd=3)
+

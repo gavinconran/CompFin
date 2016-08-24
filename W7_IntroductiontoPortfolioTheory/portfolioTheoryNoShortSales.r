@@ -107,3 +107,4 @@ points(sd.vec, mu.vals, type="b", pch=16, col="red", cex=1.5)
 b.vec = c(0.08,1,rep(0,3))
 qp.out = solve.QP(Dmat=D.mat, dvec=d.vec,
                   Amat=A.mat, bvec=b.vec, meq=2)
+

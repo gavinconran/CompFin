@@ -22,7 +22,9 @@ library(car)
 
 # source portfolio functions
 source(file="http://faculty.washington.edu/ezivot/econ424/portfolio_noshorts.r")
-loadPath="/home/gavin/Economics/ComputationalFinance/W10_SingleIndexModel/"
+#loadPath="/home/gavin/Economics/ComputationalFinance/W10_SingleIndexModel/"
+loadPath="/home/gavin/Economics/ComputationalFinance/CompFin/W10_SingleIndexModel/"
+
 #loadPath = "C:\\Users\\ezivot.SOCIOLOGY\\Dropbox\\FinBook\\EXCEL\\"
 singleIndexPrices.df = read.csv(file=paste(loadPath, "singleIndexPrices.csv", sep=""),
                                 stringsAsFactors=F)

@@ -15,7 +15,7 @@ library(zoo)
 # read prices from csv file
 #berndt.df = read.csv(file="
 #                     berndt.csv", stringsAsFactors=F)
-loadPath="/home/gavin/Economics/ComputationalFinance/W11_CAPM/"
+loadPath="/home/gavin/Economics/ComputationalFinance/CompFin/W11_CAPM/"
 #loadPath = "C:\\Users\\ezivot.SOCIOLOGY\\Dropbox\\FinBook\\EXCEL\\"
 berndt.df = read.csv(file=paste(loadPath, "berndt.csv", sep=""),
                                 stringsAsFactors=F)

@@ -5,6 +5,7 @@ rm(list=ls(all=TRUE))
 ## Part 1: Loading in your data set
 # Load the relevant packages
 library("zoo")
+library("quadprog")
 
 # Load the data
 data <- url("http://s3.amazonaws.com/assets.datacamp.com/course/compfin/lab9.RData")

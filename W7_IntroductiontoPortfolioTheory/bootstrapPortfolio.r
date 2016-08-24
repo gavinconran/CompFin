@@ -20,7 +20,7 @@ cex.val = 2
 source(file="http://faculty.washington.edu/ezivot/econ424/portfolio_noshorts.r")
 
 # load four firm example data
-singleIndexPrices.df = read.csv("./singleIndexPrices.csv",
+singleIndexPrices.df = read.csv("~/Economics/ComputationalFinance/CompFin/W7_IntroductiontoPortfolioTheory/singleIndexPrices.csv",
                                 stringsAsFactors=F)
 colnames(singleIndexPrices.df)
 colnames(singleIndexPrices.df)
